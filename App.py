@@ -9,7 +9,7 @@ CORS(app)
 # Load your trained model
 with open('LinearRegressionModelCar.pkl', 'rb') as f:
     model = pickle.load(f)
-
+# //
 
 @app.route('/')
 def hello_world():
